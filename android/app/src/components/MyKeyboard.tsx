@@ -125,7 +125,7 @@ export default function MyKeyboard() {
       <View style={Styles.row}>
         <Button title="." onPress={() => handleNumberPress(".")} />
         <Button title="0" onPress={() => handleNumberPress("0")} />
-        when press del change first number
+        {/* when press del change first number */}
         <Button title="del" onPress={() => setFirstNumber(firstNumber.slice(0, -1))} />
         <Button title="=" isPurple onPress={() => getResult()} />
       </View>
